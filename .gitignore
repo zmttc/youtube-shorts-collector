@@ -1,0 +1,19 @@
+# Original scripts with hardcoded API keys — DO NOT publish
+youtube_shorts_scraper.py
+find_actors.py
+check_transcripts.py
+check_transcript_structure.py
+get_full_transcripts.py
+
+# Data and personal files
+*.json
+*.docx
+~$*
+
+# Claude local settings
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.pyc
+.env
